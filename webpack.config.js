@@ -16,7 +16,7 @@ module.exports = {
   output: {
     path: path.resolve(__dirname, 'dist'),
     filename: 'js/[name].[hash].js',
-    publicPath: 'http://localhost:3001/', // Aquí se debe cambiar por la dirección del servidor.
+    publicPath: 'https://jorgearancibia1.github.io/CV/', // Aquí se debe cambiar por la dirección del servidor.
     chunkFilename: 'js/[id].[chunkhash].js'
   },
   optimization: {
