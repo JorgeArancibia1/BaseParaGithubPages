@@ -76,7 +76,7 @@ module.exports = {
     new AddAssetHtmlPlugin({
       filepath: path.resolve(__dirname, 'dist/js/*.dll.js'), // Qué archivos importar al html
       outputPath: 'js',  //Dónde liberar los archivos, en qué carpeta.
-      publicPath: 'http://localhost:3001/js' // Desde dónde quiero leer ese archivo(Que lo lea de la carpeta 'js').}
+      publicPath: 'https://jorgearancibia1.github.io/CV/js' // Desde dónde quiero leer ese archivo(Que lo lea de la carpeta 'js').}
     }),
     new CleanWebpackPlugin({
       cleanOnceBeforeBuildPatterns: ['**/app.*'] // patrón que limpia una vez antes del build, que se limpie todo lo que tenga app y cualquier cosa adelante.
