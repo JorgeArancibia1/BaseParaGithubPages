@@ -53,7 +53,7 @@ module.exports = {
             loader: 'url-loader', // loader que convierte archivos que no sobrepasan el limite a base64
             options:{
               limit: 1000, // Los que sobrepasan el límite se exportan.
-              name: '/[hash].[ext]', // le da un nombre a los archivos exportados.
+              name: '[hash].[ext]', // le da un nombre a los archivos exportados.
               outputPath: 'assets' // Se van a guardar en una carpeta llamada assets.
             }
           },
