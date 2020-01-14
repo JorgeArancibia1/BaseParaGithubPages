@@ -16,7 +16,7 @@ module.exports = {
   output: {
     path: path.resolve(__dirname, 'dist'),
     filename: 'js/[name].[hash].js',
-    publicPath: 'https://JorgeArancibia1.github.io/BaseParaGithubPages', // Aquí se debe cambiar por la dirección del servidor. // DOMINIO/donde esta el archivo javascript // Dominio que se aloja en el servidor.
+    publicPath: 'https://JorgeArancibia1.github.io/BaseParaGithubPages/', // Aquí se debe cambiar por la dirección del servidor. // DOMINIO/donde esta el archivo javascript // Dominio que se aloja en el servidor.
     chunkFilename: 'js/[id].[chunkhash].js'
   },
   optimization: {
