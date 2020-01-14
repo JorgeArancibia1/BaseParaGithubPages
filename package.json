@@ -1,6 +1,6 @@
 {
-  "homepage":"https://JorgeArancibia1.github.io/webpack4-config",
-  "name": "basewebpack4",
+  "homepage":"https://JorgeArancibia1.github.io/BaseParaGithubPages",
+  "name": "githubpages",
   "version": "1.0.0",
   "description": "Es una base de webpack para poder comenzar proyectos con react.",
   "main": "index.js",
